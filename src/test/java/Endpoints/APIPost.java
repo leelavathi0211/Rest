@@ -22,14 +22,15 @@ public class APIPost {
 		
 		return response;
 	}
-	public static Response getdetails(Payload payload){
+	public static Response getdetails(String username){
 		String get_endpoint=getEndpoint().getString("geturl");
 		Response response=given()
+				.pathParam("username", username)
 		.contentType(ContentType.JSON)
 		.accept(ContentType.JSON)
-		.body(payload)
 		.when()
-		.post(get_endpoint);
+		.get(get_endpoint);
+
 		
 		return response;
 	}

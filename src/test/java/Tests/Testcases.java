@@ -41,6 +41,24 @@ public class Testcases {
 		Assert.assertEquals(response.jsonPath().getString("type"), "unknown");
 		Assert.assertEquals(response.jsonPath().getString("message"), ID);
 	}
-	
+	@Test(priority=0,dataProvider="getTestDataTest")
+	public void getreq(String ID,String Username,String Firstname,String Lastname,String Email,String Password,String Phone) {
+		Payload input=new Payload();
+		input.setId(Integer.parseInt(ID));
+		input.setUsername(Username);
+		input.setFirstName(Firstname);
+		input.setLastName(Lastname);
+		input.setEmail(Email);
+		input.setPassword(Password);
+		input.setPhone(Phone);
+		
+		
+		Response response=APIPost.getdetails(Username);
+		response.then().log().all()
+		.extract().response();
+		Assert.assertEquals(response.getStatusCode(), 200);
+//		Assert.assertEquals(response.jsonPath().getString("type"), "unknown");
+//		Assert.assertEquals(response.jsonPath().getString("message"), ID);
+	}
 	
 }
