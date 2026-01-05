@@ -1,5 +1,5 @@
 package Request.payload;
-
+//POJO class
 public class Payload {
 	int id;
 	String username;
@@ -8,7 +8,7 @@ public class Payload {
 	String email;
 	String password;
 	String phone;
-	int userStatus=0;
+	public static int userStatus=0;
 	
 	public int getId() {
 		return id;

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-05T14:42:43 IST" name="Default suite" finished-at="2026-01-05T14:42:53 IST" duration-ms="9815">
+    <groups>
+    </groups>
+    <test started-at="2026-01-05T14:42:43 IST" name="Default test" finished-at="2026-01-05T14:42:53 IST" duration-ms="9815">
+      <class name="Tests.Testcases">
+        <test-method signature="postreq(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.Testcases@51399530]" started-at="2026-01-05T14:42:44 IST" name="postreq" data-provider="getTestDataTest" finished-at="2026-01-05T14:42:49 IST" duration-ms="4477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[101]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abc]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Xyz]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4865365]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postreq -->
+        <test-method signature="postreq(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.Testcases@51399530]" started-at="2026-01-05T14:42:49 IST" name="postreq" data-provider="getTestDataTest" finished-at="2026-01-05T14:42:50 IST" duration-ms="1305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ijk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Str]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ijk@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[852369874]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postreq -->
+        <test-method signature="getreq(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.Testcases@51399530]" started-at="2026-01-05T14:42:50 IST" name="getreq" data-provider="getTestDataTest" finished-at="2026-01-05T14:42:52 IST" duration-ms="1599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[101]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abc]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Xyz]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4865365]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getreq -->
+        <test-method signature="getreq(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.Testcases@51399530]" started-at="2026-01-05T14:42:52 IST" name="getreq" data-provider="getTestDataTest" finished-at="2026-01-05T14:42:53 IST" duration-ms="1289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ijk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Str]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ijk@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[852369874]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getreq -->
+      </class> <!-- Tests.Testcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
