@@ -1,10 +1,11 @@
-# Rest
+##### Rest
 
 REST API automation framework built using Java, Rest Assured, and TestNG.
-Automates POST and GET request with assertions and validations with data drivern approach.
+Automates POST and GET request with assertions and validations with data driven approach.
 
 
-# Technologies
+
+##### Technologies \& Libraries
 
 -Java
 -Rest Assured
@@ -15,17 +16,22 @@ Automates POST and GET request with assertions and validations with data drivern
 -JSON (for response validation)
 
 
-# Installation and setup details
 
-1. Java JDK
-2. Eclipse
-3. Selenium
-4. Github Desktop
+##### Installation and setup details
 
-Run Code--> Right-click → Run as TestNG Test
+* Java JDK
+* Eclipse
+* Selenium
+* GitHub Desktop
+* 
+
+##### Run Code
+
+Right-click → Run as TestNG Test
 
 
-# Project Structure
+
+##### Project Structure
 
 src
 ├── test
@@ -37,24 +43,27 @@ src
 │ │ ├── Tests
 │ │ │ └── Testcases.java
 │ │ ├── Utils
-│ │ │ └── Excel_Testdata.java
+│ │ │ └── Excel\_Testdata.java
 │ └── resources
 │ │ ├── config.properties
 │ │ └── Testdata.xlsx
 
 
-# File Details
 
-APIPost-- For API Connection
-Payload-- POJO classes for request bodies(Getters and setters)
-TestCases-- for Assertions and validation
-Utils-- for common reusable logic(Fetch data from Excel)
-Config.properties-- Endpoints
-Testdata-- for data-driven testing
-pom.xml-- dependency and build management
-TestNG XML-- for execution control
+##### File Details
+
+* APIPost-- For API Connection
+* Payload-- POJO classes for request bodies(Getters and setters)
+* TestCases-- for Assertions and validation
+* Utils-- for common reusable logic(Fetch data from Excel)
+* Config.properties-- Endpoints
+* Testdata-- for data-driven testing
+* pom.xml-- dependency and build management
+* TestNG XML-- for execution control
 
 
-# Framework Covers:
 
-Automated POST and GET request using Restassured library using datadriver approach. Executed total 4 Testcases 2 for each method. Validated status code, response body and headers.
+##### Framework Covers:
+
+Automated POST and GET request using Rest assured library using data driven approach. Executed total 4 Testcases 2 for each method. Validated status code, response body and headers.
+
