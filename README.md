@@ -7,13 +7,13 @@ Automates POST and GET request with assertions and validations with data driven 
 
 ##### Technologies \& Libraries
 
--Java
--Rest Assured
--Selenium
--TestNG
--Maven
--Apache POI (for data-driven testing)
--JSON (for response validation)
+* JAVA
+* selenium
+* TestNG
+* Maven
+* Rest Assured
+* Apache POI(Data driven approach)
+* JSON(Response validation)
 
 
 
@@ -23,9 +23,12 @@ Automates POST and GET request with assertions and validations with data driven 
 * Eclipse
 * Selenium
 * GitHub Desktop
-* 
+
+
 
 ##### Run Code
+
+Install and pull the code to local repository. Import the folder in eclipse.
 
 Right-click → Run as TestNG Test
 
